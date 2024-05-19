@@ -1,0 +1,65 @@
+/* Style for the container */
+.reg-container,regation {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+  background-color: #736b6b;
+
+}
+
+/* Style for input boxes */
+.inputbox {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.inputbox label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.inputbox .box {
+  position: relative;
+}
+
+.inputbox .icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+}
+
+.inputbox input[type="text"],
+.inputbox select {
+  width: calc(100% - 30px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for submit button */
+input[type="button"] {
+  width: 15%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #720a0a;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 42%;
+  font-weight: bold;
+}
+
+input[type="button"]:hover {
+  background-color: #05601f;
+}
+
+body{
+  background-color:#333;
+}

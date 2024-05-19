@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="regation.css">
+    <title>CodeCraft Academy</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="containe-head">
+              <div class="logo">
+                  <img src="cc logo.jpg" alt="">
+              </div>
+              <div class="navbar">
+                <ul>
+                    <li onclick="homePage()">HOME</li>
+                    <li onclick="postPage()">COURSES</li>
+                    <li onclick="Contest()">CONTEST</li>
+                    <li onclick="logIn()"><a href="#logIn" style="color: black; text-decoration: none;"> LOGIN</a></li>
+                    <li onclick="SignUp()"><a href="reg_new.html" style="color: black; text-decoration: none;">SIGNUP</a></li>
+                </ul>
+            </div>            
+                
+            </div>
+         </header>
+
+    </div>
+    
+    <!-- main container -->
+<div id="home">
+    <section id="main">
+        <div class="bannar">
+            <img src="sl.jpg" alt="" srcset="">
+           
+            <h1 class="site-titel" style="color: rgb(102, 246, 7);">CodeCraft Academy</h1>
+            <div class="search-div">
+                 <input type="text" class="search" placeholder=" What do you want to learn Today?">
+                 <button class="search-submit-but" type="submit">search</button>
+            </div>
+        </div><br>
+        <div class="news-update">
+            <h3> News Update</h3>
+            <marquee behavior="" direction="" style="font-weight:bold ">This website is run by "CodeCraft Academy"  and this is specially design for to learn and practice the coding problem. <i>reference geeksforgeeks website</i> (<u>FOUNDER and CEO Mr. Vipul Kumar</u>)
+         </marquee>
+         
+        </div>
+    <br>
+            <h2>Most Popular Courses:</h2>
+            <hr id="card-hr"/>
+        <div class="card">
+                <div class="card-element">
+                    <div class="img">
+                       
+                        <img src="i1.webp" alt="">
+                    </div>
+                    <h3 ><span id="card-titel">
+                        DSA to Development a complete guide </span></h3>
+                    <p id="institute-dris">Beginner to Advanced</p>
+                    <div class="card-butt">
+                        <button class="card-sub-butt" id="butt-follow">Like</button>
+                        <button class="card-sub-butt" id="butt-share">Share</button>
+                    </div>
+                </div>
+            <!-- 2 -->
+                <div class="card-element">
+                    <div class="img">
+                        <img src="i2.webp" alt="">
+                    </div>
+                    <h3 ><span id="card-titel">
+                        Full Stack Development with React & Node JS </span></h3>
+                    <p id="institute-dris">Beginner to Advanced</p>
+                    <div class="card-butt">
+                        <button class="card-sub-butt" id="butt-follow">Like</button>
+                        <button class="card-sub-butt" id="butt-share">Share</button>
+                    </div>
+                </div>
+            <!-- 3 -->
+                <div class="card-element">
+                    <div class="img">
+                        <img src="i3.webp" alt="">
+                    </div>
+                    <h3 ><span id="card-titel">
+                        Complete Machine Learning & Data Science Program</span></h3>
+                    <p id="institute-dris">Beginner to Advanced</p>
+                    <div class="card-butt">
+                        <button class="card-sub-butt" id="butt-follow">Like</button>
+                        <button class="card-sub-butt" id="butt-share">Share</button>
+                    </div>
+                </div>
+            <!-- 4 -->
+                <div class="card-element">
+                    <div class="img">
+                        <img src="i4.webp" alt="">
+                    </div>
+                    <h3 ><span id="card-titel">
+                        GATE Data Science and Artificial Intelligence </span></h3>
+                    <p id="institute-dris">Beginner to Advanced</p>
+                    <div class="card-butt">
+                        <button class="card-sub-butt" id="butt-follow">Like</button>
+                        <button class="card-sub-butt" id="butt-share">Share</button>
+                    </div>
+                </div>
+            <!-- 5 -->
+                <div class="card-element">
+                    <div class="img">
+                        <img src="i5.webp" alt="">
+                    </div>
+                    <h3 ><span id="card-titel"> Data Structures & Algorithms in Python</span></h3>
+                    <p id="institute-dris">Beginner to Advanced</p>
+                    <div class="card-butt">
+                        <button class="card-sub-butt" id="butt-follow">Like</button>
+                        <button class="card-sub-butt" id="butt-share">Share</button>
+                    </div>
+                </div>
+            <!-- 6 -->
+                <div class="card-element">
+                    <div class="img">
+                        <img src="i6.webp" alt="">
+                    </div>
+                    <h3 ><span id="card-titel"> 
+                        Data Structures and Algorithms - Self Paced
+                    </span></h3>
+                    <p id="institute-dris">Beginner to Advanced</p>
+                    <div class="card-butt">
+                        <button class="card-sub-butt" id="butt-follow">Like</button>
+                        <button class="card-sub-butt" id="butt-share">Share</button>
+                    </div>
+                </div>
+        </div> 
+        
+    </section>
+    <br>
+    <!-- recent add -->
+    
+    <section id="main">
+        <h2>Recent Added Courses</h2>
+        <hr id="card-hr"/>
+    <div class="card">
+            <div class="card-element">
+                <div class="img">
+                    <img src="i7.webp" alt="">
+                </div>
+                <h3 ><span id="card-titel"> Master C Programming  </span></h3>
+                <p id="institute-dris">Beginner to Advanced</p>
+                <div class="card-butt">
+                    <button class="card-sub-butt" id="butt-follow">Like</button>
+                    <button class="card-sub-butt" id="butt-share">Share</button>
+                </div>
+            </div>
+        <!-- 2 -->
+            <div class="card-element">
+                <div class="img">
+                    <img src="i8.webp" alt="">
+                </div>
+                <h3 ><span id="card-titel">Master javascript </span></h3>
+                <p id="institute-dris">Beginner to Advanced</p>
+                <div class="card-butt">
+                    <button class="card-sub-butt" id="butt-follow">Like</button>
+                    <button class="card-sub-butt" id="butt-share">Share</button>
+                </div>
+            </div>
+        <!-- 3 -->
+            <div class="card-element">
+                <div class="img">
+                    <img src="i9.webp" alt="">
+                </div>
+                <h3 ><span id="card-titel"> Master C Programming </span></h3>
+                <p id="institute-dris">Beginner to Advanced</p>
+                <div class="card-butt">
+                    <button class="card-sub-butt" id="butt-follow">Like</button>
+                    <button class="card-sub-butt" id="butt-share">Share</button>
+                </div>
+            </div>
+      
+     
+</section>
+</div>
+
+<!-- section all-post-page -->
+
+<section id="allinstitute-page">
+    <div class="allinstitute-page-head">
+        <h2>All the Courses are here......</h2><br/>
+        <h4>what do you want to learn Today? </h4>
+        <div class="all-post-search">
+            <input type="search" name="" id="all-post-search-input" placeholder="Search here">
+            
+            <input id="location-input" type="text" placeholder="Course Categories">
+            <button type="submit" id="all-post-sub-butt">Submit</button>
+       </div>
+        <i class="fa-brands fa-searchengin search-icon"></i>
+        
+    <!-- search filter -->
+   
+    </div>
+
+    <div class="card">
+        <div class="card-element">
+            <div class="img">
+               
+                <img src="i1.webp" alt="">
+            </div>
+            <h3 ><span id="card-titel">
+                DSA to Development a complete guide </span></h3>
+            <p id="institute-dris">Beginner to Advanced</p>
+            <div class="card-butt">
+                <button class="card-sub-butt" id="butt-follow">Like</button>
+                <button class="card-sub-butt" id="butt-share">Share</button>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="card-element">
+            <div class="img">
+                <img src="i2.webp" alt="">
+            </div>
+            <h3 ><span id="card-titel">
+                Full Stack Development with React & Node JS </span></h3>
+            <p id="institute-dris">Beginner to Advanced</p>
+            <div class="card-butt">
+                <button class="card-sub-butt" id="butt-follow">Like</button>
+                <button class="card-sub-butt" id="butt-share">Share</button>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="card-element">
+            <div class="img">
+                <img src="i3.webp" alt="">
+            </div>
+            <h3 ><span id="card-titel">
+                Complete Machine Learning & Data Science Program</span></h3>
+            <p id="institute-dris">Beginner to Advanced</p>
+            <div class="card-butt">
+                <button class="card-sub-butt" id="butt-follow">Like</button>
+                <button class="card-sub-butt" id="butt-share">Share</button>
+            </div>
+        </div>
+        <!-- 4 -->
+        <div class="card-element">
+            <div class="img">
+                <img src="i4.webp" alt="">
+            </div>
+            <h3 ><span id="card-titel">
+                GATE Data Science and Artificial Intelligence </span></h3>
+            <p id="institute-dris">Beginner to Advanced</p>
+            <div class="card-butt">
+                <button class="card-sub-butt" id="butt-follow">Like</button>
+                <button class="card-sub-butt" id="butt-share">Share</button>
+            </div>
+        </div>
+        <!-- 5 -->
+        <div class="card-element">
+            <div class="img">
+                <img src="i5.webp" alt="">
+            </div>
+            <h3 ><span id="card-titel"> Data Structures & Algorithms in Python</span></h3>
+            <p id="institute-dris">Beginner to Advanced</p>
+            <div class="card-butt">
+                <button class="card-sub-butt" id="butt-follow">Like</button>
+                <button class="card-sub-butt" id="butt-share">Share</button>
+            </div>
+        </div>
+        <!-- 6 -->
+        <div class="card-element">
+            <div class="img">
+                <img src="i6.webp" alt="">
+            </div>
+            <h3 ><span id="card-titel"> 
+                Data Structures and Algorithms - Self Paced
+            </span></h3>
+            <p id="institute-dris">Beginner to Advanced</p>
+            <div class="card-butt">
+                <button class="card-sub-butt" id="butt-follow">Like</button>
+                <button class="card-sub-butt" id="butt-share">Share</button>
+            </div>
+        </div>
+ 
+        <!-- 7 -->
+        <div class="card-element">
+            <div class="img">
+                <img src="i7.webp" alt="">
+            </div>
+            <h3 ><span id="card-titel"> Master C Programming  </span></h3>
+            <p id="institute-dris">Beginner to Advanced</p>
+            <div class="card-butt">
+                <button class="card-sub-butt" id="butt-follow">Like</button>
+                <button class="card-sub-butt" id="butt-share">Share</button>
+            </div>
+        </div>
+    
+        <!-- 8 -->
+        <div class="card-element">
+            <div class="img">
+                <img src="i8.webp" alt="">
+            </div>
+            <h3 ><span id="card-titel">Master javascript </span></h3>
+            <p id="institute-dris">Beginner to Advanced</p>
+            <div class="card-butt">
+                <button class="card-sub-butt" id="butt-follow">Like</button>
+                <button class="card-sub-butt" id="butt-share">Share</button>
+            </div>
+        </div>
+     
+        <!-- 9 -->
+        <div class="card-element">
+            <div class="img">
+                <img src="i9.webp" alt="">
+            </div>
+            <h3 ><span id="card-titel"> Master C Programming </span></h3>
+            <p id="institute-dris">Beginner to Advanced</p>
+            <div class="card-butt">
+                <button class="card-sub-butt" id="butt-follow">Like</button>
+                <button class="card-sub-butt" id="butt-share">Share</button>
+            </div>
+        </div>
+        
+          
+    </div>
+
+    
+</section>
+
+<!--Contest  -->
+ 
+<section id="allinstitute-page">
+    <div class="allinstitute-page-head">
+        <h2>All the Contest are here......</h2><br/>
+        <h4> All the contest are as given below... </h4>
+        <div class="all-post-search">
+            <input type="search" name="" id="all-post-search-input" placeholder="Search here">
+            
+            <input id="location-input" type="text" placeholder="Course Categories">
+            <button type="submit" id="all-post-sub-butt">Submit</button>
+       </div>
+        <i class="fa-brands fa-searchengin search-icon"></i>
+<section id="Contest">
+    <div class ="Contest" id="Contest">
+    <img src="c1.png">
+    <img src="c2.png">
+    <img src="c3.png">
+    <img src="c4.png">
+    <img src="c5.png">
+    <img src="c6.png">
+    </div>
+</section> <br><br><br>
+
+<!--log in-->
+<h2>..Login..</h2>
+<section id="logIn">
+    <div class ="logIn" id="logIn">
+<div id="login-container">
+    <div class="regation">
+        <form action="">
+            <h3>Log in</h3>
+            <div class="inputBox">
+                <span>User-Name</span>
+                <div class="box">
+                    <div class="icon"><ion-icon name="person"></ion-icon></div>
+                    <input type="text" name="" id="">
+                </div>
+            </div>
+            <div class="inputBox">
+                <span>Password</span>
+                <div class="box">
+                    <div class="icon"><ion-icon name="lock-closed"></ion-icon></div>
+                    <input type="password" name="" id="">
+                </div>
+            </div>
+            <label for="">
+                <input type="checkbox" name="" id="" value="Log In">Remember me
+            </label>
+            <div class="inputBox">
+                <div class="box">
+                    <input type="submit" name="" id="">
+                </div>
+            </div>
+            <a href="#" class="forgot"> Forget Password</a>
+            <a href="#" class="forgot"> Regation</a>
+        </form>        
+</div>
+    </div>
+</div>
+</section>
+
+
+
+
+
+
+<!-- footer section -->
+    <footer id="footer">
+        <div class="footer-main-section f">
+            <div class="footer-section-1">
+                <div class="footer-logo">
+                    <img src="cc logo.jpg" alt="University Logo">
+                </div>
+                <small>
+                    Welcome to our educational institution! We are dedicated to providing quality education and fostering an environment of learning and growth.
+                </small>
+            </div>
+            
+            
+            
+            <div class="footer-section-2">
+                <h5>About</h5>
+                <h5>Team</h5>
+                <h5>Contact Us</h5>
+                <h5>Trams & Condition</h5>
+            </div>
+            <div class="footer-section-3">
+                <h2><a href=""></a>Home</h2>
+                <h2><a href=""></a>Courses</h2>
+                <h2><a href=""></a>Login</h2>
+                <h2><a href=""></a>SignUp</h2>
+            </div>
+            <div class="footer-section-4">
+                <div class="footer-social-icone">
+                    <h4><a href="#"><i class="footer-icon fa-regular fa-envelope"></i>Email</h4> </a><br/>
+                    <h4><a href="#"> <i class=" footer-icon fa-regular fa-envelope"></i>Facebook</h4></a><br/>
+                    <h4><a href="#"> <i class=" footer-icon fa-regular fa-envelope"></i>YouTube</h4></a><br/>
+                    <h4><a href="#"> <i class=" footer-icon fa-regular fa-envelope"></i>twitter</h4></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   
+    
+
+
+
+    <script type="text/javascript" src="js.js"></script>
+ 
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

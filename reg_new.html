@@ -1,0 +1,57 @@
+<div class="reg-container">
+    <form action="reg_new.php" method="POST">
+        <link rel="stylesheet" href="styles.css">
+
+        <div class="inputbox">
+            <label for="applicant_name">Applicant Name</label>
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-school"></i></div>
+                <input type="text" placeholder="Enter Your Name" name="applicant_name">
+            </div>
+        </div>
+        <div class="inputbox">
+            <label for="aadhaar_number">Aadhaar Number</label>
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-school"></i></div>
+                <input type="text" placeholder="Enter Your Aadhaar" name="aadhaar_number">
+            </div>
+        </div>
+        <div class="inputbox">
+            <label for="mobile_number">Mobile Number</label>
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-school"></i></div>
+                <input type="text" placeholder="Enter Your Phone Number" name="mobile_number">
+            </div>
+        </div>
+        <div class="inputbox">
+            <label for="password">Password</label>
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-lock"></i></div>
+                <input type="password" placeholder="Password" name="password">
+            </div>
+        </div>
+
+        <div class="inputbox">
+            <label for="language">Select Your Language</label>
+            <div class="box">
+                <select name="language" id="language">
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Maithili">Maithili</option>
+                    <option value="Bhojpuri">Bhojpuri</option>
+                    <option value="Manipuri">Manipuri</option>
+                    <option value="Bangali">Bangali</option>
+                    <option value="Urdu">Urdu</option>
+                    <option value="Sanskrit">Sanskrit</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="inputbox">
+            <input type="checkbox" name="terms_conditions" id="terms_conditions">I Agree to Terms and Conditions
+        </div>
+
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
